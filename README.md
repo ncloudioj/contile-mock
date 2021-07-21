@@ -1,12 +1,20 @@
 Mock Server for Mozilla Contile
 
-## Installation
+## Usage
+
+### Run it via docker
+
+`$ docker run -p 8080:8080 --name contile-mock --rm ncloudioj/contile-mock:latest`
+
+### Run it locally
+
+#### Installation
 
 This mock server is an Openresty application, so you might need to install Openresty on your machine.
 
 For example, on MacOS, you can install it via Homebrew `brew install openresty`.
 
-## Usage
+#### Instructions
 
 * Run mock server
 `$ make run`
