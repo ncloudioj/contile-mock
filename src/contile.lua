@@ -7,6 +7,7 @@ local tile_set = {
             name = "Disney+",
             order = 10,
             url = "https://www.geico.com/",
+            image_size = 192,
             image_url = "https://cdn.45tu1c0.com/account/73512/200/2521228087483.jpg"
         },
         {
@@ -14,6 +15,7 @@ local tile_set = {
             name = "HomeDepot",
             order = 20,
             url = "https://www.etsy.com/",
+            image_size = 192,
             image_url = "https://cdn.45tu1c0.com/account/25176/200/1521228087115.jpg"
         }
     },
@@ -23,6 +25,7 @@ local tile_set = {
             name = "eBay",
             order = 10,
             url = "https://www.nike.com/",
+            image_size = 192,
             image_url = "https://cdn.45tu1c0.com/account/74161/200/1582930149.jpg",
         },
         {
@@ -30,6 +33,7 @@ local tile_set = {
             name = "Disney+",
             order = 20,
             url = "https://www.adidas.de/",
+            image_size = 192,
             image_url = "https://cdn.45tu1c0.com/account/73512/200/2521228087483.jpg"
         }
     },
@@ -39,6 +43,7 @@ local tile_set = {
             name = "HomeDepot",
             order = 10,
             url = "https://www.wix.com/",
+            image_size = 192,
             image_url = "https://cdn.45tu1c0.com/account/25176/200/1521228087115.jpg"
         },
         {
@@ -46,6 +51,7 @@ local tile_set = {
             name = "eBay",
             order = 20,
             url = "https://www.samsung.com/",
+            image_size = 192,
             image_url = "https://cdn.45tu1c0.com/account/74161/200/1582930149.jpg",
         }
     }
