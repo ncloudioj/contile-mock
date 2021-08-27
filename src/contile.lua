@@ -58,5 +58,6 @@ local tile_set = {
 }
 
 ngx.header.content_type = "application/json; charset=utf-8"
+ngx.header.cache_control = "public, max-age=60, stale-if-error=1800, stale-while-revalidate=1800"
 local tile = tile_set[math.random(100) % #tile_set + 1]
 ngx.say(cjson.encode({ tiles = tile }))
