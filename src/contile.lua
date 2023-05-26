@@ -64,8 +64,14 @@ local sov = {
     {
       position = 1,
       allocation = {
-        partner = "adm",
-        percentage = 100,
+        {
+          partner = "adm",
+          percentage = 100,
+        },
+        {
+          partner = "moz-sales",
+          percentage = 0,
+        },
       },
     },
     {
@@ -73,11 +79,11 @@ local sov = {
       allocation = {
         {
           partner = "adm",
-          percentage = 80,
+          percentage = 100,
         },
         {
           partner = "moz-sales",
-          percentage = 20,
+          percentage = 0,
         },
       },
     },
